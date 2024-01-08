@@ -4,10 +4,13 @@ import SignUp from "./pages/SignUp"
 import Singin from "./pages/Singin"
 import About from "./pages/About"
 import Profile from "./pages/Profile"
+import Header from "./components/Header"
 
 
 export default function App() {
   return <BrowserRouter>
+
+    <Header/>
 
   <Routes>
 
